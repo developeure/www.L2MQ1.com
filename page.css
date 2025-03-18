@@ -1,0 +1,166 @@
+body{
+    height: 200vh;
+}
+header{
+    width: 100%;
+    height: 25%;
+    background-image: url('https://th.bing.com/th/id/R.7378d6bd9877aa98a4d0cc196d4051fa?rik=tF75H%2bk6tbkYlw&riu=http%3a%2f%2flascoudon.ma%2fimages%2fbandeau%2fgalerie.jpg&ehk=a1mc4tsV9z1dwLZxhkJta2Dip312UJwOminet7a4%2fwQ%3d&risl=&pid=ImgRaw&r=0');
+    background-size:cover;
+}
+H1{
+    background-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(to left,#316df0,#31eeee,#74b9d4); 
+}
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+header nav{
+    display: flex;
+    justify-content: center;
+}
+header nav a{
+    font-size: 20px;
+    padding-left: 50px ;
+    text-decoration: none;
+    color: rgb(70, 141, 248);
+}
+.contact a{
+    color: white;
+}
+main .contact{
+    height:30px;
+}
+.contact{
+    height: min-content;
+    background-color: #8adb97;
+    color: white;
+    padding-left: 70px;
+    background: linear-gradient(45deg,#6ae67e,#65ebeb,#7132e6); 
+    animation: gradientAnimation 1s ease infinite; /* Animation du dégradé */
+}
+header nav a:hover{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(145, 138, 138);
+}
+@media screen and (max-width:350px)  {
+    .contact{
+        padding-left: 0px;
+    }
+    header nav{
+        display: block;
+    }
+    header nav a{
+        margin-bottom: 20px;
+    }
+}
+.contact h2 .c{
+    color: white;
+    background-color: #7132e6;
+    border: 2px solid #7132e6;
+}
+.c{
+    margin-left: 93%;
+}
+h3{
+    text-decoration: underline;
+    color: #316fe2;
+}
+article.pre{
+    width: 25%;
+    height: 20%;
+}
+section{
+    width: 25%;
+    height: 20%;
+    border: 2px solid black;
+}
+main .co{
+    display: flex;
+    margin: 5%;
+}
+.con:hover{
+    background-color: red;
+}
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(245, 235, 235);
+    color: rgb(0, 0, 0);
+}
+img{
+    width: 35%;
+    height: 25%;
+}
+.diaporama {
+    position: relative;
+    width: 100%; /* largeur du diaporama */
+    height: 35%; /* hauteur du diaporama */
+  }
+  
+  .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    animation: apparition 5s forwards; /* animation pour faire apparaître l'image */
+    animation-delay: calc(4s * var(--index)); /* délai avant de faire apparaître l'image */
+  }
+  
+  .image:nth-child(1) {
+    --index: 0;
+  }
+  
+  .image:nth-child(2) {
+    --index: 1;
+  }
+  
+  .image:nth-child(3) {
+    --index: 2;
+  }
+  
+  .image:nth-child(4) {
+    --index: 3;
+  }
+  
+  .image:nth-child(5) {
+    --index: 4;
+  }
+  .image:nth-child(6) {
+    --index: 5;
+  }
+  .image:nth-child(7) {
+    --index: 6;
+  }
+  .image:nth-child(8) {
+    --index: 7;
+  }
+  .image:nth-child(9) {
+    --index: 8;
+  }
+  
+  @keyframes apparition {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+

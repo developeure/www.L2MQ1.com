@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L2MQ-Catalogue</title>
+    <link rel="icon" href="OIP (3).jpg" >
+    <style>
+        body{
+    height: 200vh;
+}
+header{
+    width: 100%;
+    height: 25%;
+    background-image: url('https://th.bing.com/th/id/R.7378d6bd9877aa98a4d0cc196d4051fa?rik=tF75H%2bk6tbkYlw&riu=http%3a%2f%2flascoudon.ma%2fimages%2fbandeau%2fgalerie.jpg&ehk=a1mc4tsV9z1dwLZxhkJta2Dip312UJwOminet7a4%2fwQ%3d&risl=&pid=ImgRaw&r=0');
+    background-size:cover;
+}
+H1{
+    background-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(to left,#316df0,#31eeee,#74b9d4); 
+}
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+header nav{
+    display: flex;
+    justify-content: center;
+}
+header nav a{
+    font-size: 20px;
+    padding-left: 50px ;
+    text-decoration: none;
+    color: rgb(70, 141, 248);
+}
+.contact a{
+    color: white;
+}
+main .contact{
+    height:30px;
+}
+.contact{
+    background-color: #8adb97;
+    color: white;
+    padding-left: 70px;
+    animation: gradientAnimation 1s ease infinite; /* Animation du dégradé */
+    background: linear-gradient(45deg,#6ae67e,#65ebeb,#7132e6); 
+}
+header nav a:hover{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(145, 138, 138);
+}
+@media screen and (max-width:350px)  {
+    .contact{
+        padding-left: 0px;
+    }
+    header nav{
+        display: block;
+    }
+    header nav a{
+        margin-bottom: 20px;
+    }
+}
+.contact h2 .c{
+    color: white;
+    background-color: #7132e6;
+    border: 2px solid #7132e6;
+}
+img.imm{
+    border: 2px solid white;
+    box-shadow: 7px 7px 7px gray;
+    width: 15%;
+    height: 25%;
+}
+img{
+    border: 3px solid black;
+}
+.conteneur {
+  position: relative;
+  width: 100%; /* largeur du conteneur */
+  height: 600px; /* hauteur du conteneur */
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+
+.image.active {
+  display: block;
+}
+
+.button-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.prev-button, .next-button {
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.prev-button {
+  margin-right: 10px;
+}
+.conteneur {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+
+.image.active {
+  display: block;
+}
+
+.imaag{
+    display: flex;
+
+}
+
+    </style>
+</head>
+<body>
+    <main class="contact">
+        <h3> ✉️ :chemiclab@domain.com</h3>
+        <h3><a href="https://www.bing.com/ck/a?!&&p=07f3b0f5a30db0334d3c7e6b262ca79a3d33dd3b7aff19b1e83ef5d22b6cec05JmltdHM9MTc0MDg3MzYwMA&ptn=3&ver=2&hsh=4&fclid=241574c1-a117-6b8a-06bb-61c7a01f6a9a&psq=href+maps&u=a1aHR0cHM6Ly9tYXBzLmdvb2dsZS5mci8&ntb=1">localisation :  Sunset Road ST.3319, Denpasar, Bal</a></h3>
+        <h2><a href="contact.html" class="c">Contact</a></h2>    
+    </main>
+    <H1>L2MQ (LABORATOIRE)</H1>
+    <header>
+        <nav>
+            <a href="page.html">Acceuil</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="Catalogues.html">Catalogues</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="Demande de devis.html">Demande de devis</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="service.html">Service</a>
+        </nav>
+    </header><br><br><br><br>
+    <main >
+        <img src="WhatsApp Image 2025-03-11 à 01.49.12_c89bc010.jpg" alt="" style="width: 100%;height: 100%;">
+        <h1><strong> Produits :</strong></h1>
+        <h2 class="tit">
+            •  Hygromètres <br>
+            •  Sonomètre <br>
+            •  Localisateurs des câbles enterrés <br>
+            •  Télémètres laser <br>
+            •  Enregistreurs (Humidité, Température et point de rosée) <br>
+            •  Vibrométre & Alignement laser <br>
+            •  Compactage de matériaux <br>
+            •  Mesure de force, de couple <br> 
+            •  Mesure d’épaisseur des revêtements et matériaux <br>
+            •  Dureté des roches, matière plastique ou métaux ( Leeb et UCI ) <br>
+            •  Teneur en eau <br>
+        </h2>
+        <div class="conteneur">
+            <img class="image " src="er.jpg" alt="Produit de mesure" >
+            <img class="image " src="er2.jpg" alt="Produit de mesure" >
+            <img  class="image" src="mes1.jpg" alt="Produit de mesure"  >
+            <img class="image"  src="mesu2.jpg" alt="Produit de mesure" >
+            <img  class="image" src="mesu3.jpg" alt="Produit de mesure" >
+            <img class="image" src="mesu7.jpg" alt="Produit de mesure" >
+            <img class="image " src="mesu9.jpg" alt="Produit de mesure" >
+            <img class="image " src="mesur.jpg" alt="Produit de mesure" >
+            <img class="image" src="plus.jpg" alt="Produit de mesure">
+            <img class="image" src="plus1.jpg" alt="Produit de mesure">
+            <img class="image" src="plus0.jpg" alt="Produit de mesure">
+        </div>    
+    </div>
+    <script src="script.js"></script>
+
+    <div class="ani">
+    <h1 style="text-align: center;">Devise</h1>
+    <p>Des valeurs fortes sont au cœur de la société depuis sa création. Elles 
+        guident ses actions au quotidien et constituent un socle commun que 
+        l’ensemble de ses équipes et de ses associés partagent et s’engagent à 
+        respecter
+         Celles-ci formulent la devise de la société « Confiance, Engagement, 
+        Rigueur », à laquelle L2MQ tient de s’y conformer entièrement et 
+        fidèlement.
+    </p>
+        <p> Par-là, nous entendons dire que nous avons la totale Confiance en nos 
+            équipes, associés et partenaires de pouvoir apporter à nos clients des 
+            solutions pertinentes et adéquates tout en respectant Rigoureusement 
+            nos Engagements envers l’Environnement, lesquels se définissent par le 
+            respect rigoureux des valeurs du développement durable et par la 
+            conformité de nos produits aux normes internationales.
+        </p>
+    </div>
+    </main>
+    <section>
+        <h1 style="text-align: center;">L'information</h1>
+        <p>En réponse aux exigences des principaux référentiels qualité (GxP) et textes officiels tels que la Pharmacopée, en matière de gestion et de maîtrise des équipements, cette formation présente la mise en œuvre d’un programme de gestion (maintenance, étalonnage, vérification, qualification...) appliqué à l’environnement d’un laboratoire analytique.</p>
+      <div class="imaag">
+        <img style="width: 32%;" src="im4.jpg" alt="informaion">
+        <img  style="width: 32%;" src="WhatsApp Image 2025-03-11 à 01.54.18_6ec214c0.jpg" alt="service">
+        <img style="width: 32%;" src="WhatsApp Image 2025-03-11 à 01.54.18_baf2a6ab.jpg" alt="Service">
+      </div>
+    </section>
+
+    <footer style="position: fixed;bottom: 0;">
+        <p >Copyright version :2025 ;   L2MQBy Youssef</p>
+        <h1><a href="contact.html">Contacter-nous</a></h1>
+    </footer>

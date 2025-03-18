@@ -1,0 +1,6 @@
+AuthType Basic
+AuthName "Accès restreint"
+AunthUserFile /Users/AYAGA/Desktop/GROUP%20RAHAF/.htpasswd
+<FilesMatch "/.(html|css)$">
+   Require valid-user
+</FilesMatch>
